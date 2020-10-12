@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BNh-fZ-CP7">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="nMV-LK-RRw">
+            <objects>
+                <viewController id="BNh-fZ-CP7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="y0d-ur-bOO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GO GO GO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="buH-cf-Pgx">
+                                <rect key="frame" x="20" y="108" width="140" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="1wY-2A-kr4"/>
+                                    <constraint firstAttribute="width" constant="140" id="UQt-P2-23R"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kNO-wf-RKz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="buH-cf-Pgx" firstAttribute="top" secondItem="kNO-wf-RKz" secondAttribute="top" constant="20" id="MeL-z6-4kR"/>
+                            <constraint firstItem="buH-cf-Pgx" firstAttribute="leading" secondItem="kNO-wf-RKz" secondAttribute="leading" constant="20" id="Vwi-0Z-fS5"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="e8b-Wv-ZD7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iqh-OZ-MUL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2018.840579710145" y="112.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

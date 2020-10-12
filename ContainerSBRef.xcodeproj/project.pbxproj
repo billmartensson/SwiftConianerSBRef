@@ -13,6 +13,9 @@
 		ABECDA1C2534773500FC0379 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABECDA1A2534773500FC0379 /* Main.storyboard */; };
 		ABECDA1E2534773900FC0379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABECDA1D2534773900FC0379 /* Assets.xcassets */; };
 		ABECDA212534773900FC0379 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABECDA1F2534773900FC0379 /* LaunchScreen.storyboard */; };
+		ABECDA2A2534789100FC0379 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABECDA292534789100FC0379 /* Settings.storyboard */; };
+		ABECDA2E25347A9100FC0379 /* Gogogo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABECDA2C25347A9100FC0379 /* Gogogo.storyboard */; };
+		ABECDA3225347E8E00FC0379 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABECDA3125347E8E00FC0379 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		ABECDA1D2534773900FC0379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABECDA202534773900FC0379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABECDA222534773900FC0379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABECDA292534789100FC0379 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		ABECDA2D25347A9100FC0379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ContainerSBRef/Base.lproj/Gogogo.storyboard; sourceTree = "<group>"; };
+		ABECDA3125347E8E00FC0379 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 				ABECDA142534773500FC0379 /* AppDelegate.swift */,
 				ABECDA162534773500FC0379 /* SceneDelegate.swift */,
 				ABECDA182534773500FC0379 /* ViewController.swift */,
+				ABECDA3125347E8E00FC0379 /* ProfileViewController.swift */,
 				ABECDA1A2534773500FC0379 /* Main.storyboard */,
+				ABECDA292534789100FC0379 /* Settings.storyboard */,
+				ABECDA2C25347A9100FC0379 /* Gogogo.storyboard */,
 				ABECDA1D2534773900FC0379 /* Assets.xcassets */,
 				ABECDA1F2534773900FC0379 /* LaunchScreen.storyboard */,
 				ABECDA222534773900FC0379 /* Info.plist */,
@@ -126,7 +135,9 @@
 			files = (
 				ABECDA212534773900FC0379 /* LaunchScreen.storyboard in Resources */,
 				ABECDA1E2534773900FC0379 /* Assets.xcassets in Resources */,
+				ABECDA2E25347A9100FC0379 /* Gogogo.storyboard in Resources */,
 				ABECDA1C2534773500FC0379 /* Main.storyboard in Resources */,
+				ABECDA2A2534789100FC0379 /* Settings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +150,7 @@
 			files = (
 				ABECDA192534773500FC0379 /* ViewController.swift in Sources */,
 				ABECDA152534773500FC0379 /* AppDelegate.swift in Sources */,
+				ABECDA3225347E8E00FC0379 /* ProfileViewController.swift in Sources */,
 				ABECDA172534773500FC0379 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,6 +172,14 @@
 				ABECDA202534773900FC0379 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		ABECDA2C25347A9100FC0379 /* Gogogo.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABECDA2D25347A9100FC0379 /* Base */,
+			);
+			name = Gogogo.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
